@@ -1,38 +1,112 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=IM+Fell+DW+Pica+SC&family=IM+Fell+DW+Pica:ital@0;1&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: 'IM Fell DW Pica', serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  background: #d6cca9; 
+  color: #323331;
+}
+p{
+    margin:10px;
+}
+h1{
+ margin-bottom: 10px;
+ border-bottom: 3px solid #8b0000;
+ font-weight: bold;
+ line-height: 1.2;
+
+}
+h2 {
+  margin-bottom: 8px;
   text-align: center;
+  border-bottom: 3px solid #8b0000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headerContainer {
+    display:flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+  /* Temp */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerText {
+    background-color: #facf7f;
+    height:300px;
+}
+.navbar {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+  background: #181818;
+  color: lightgray;
+  height: 50px;
+}
+.navLink:hover {
+    color: darkred;
+}
+.navContainer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+}
+.logo {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.logo:hover {
+    color:darkred;
+}
+.navList {
+  display: flex;
+  list-style-type: none;
+}
+.navListItem {
+  margin-right: 20px;
+}
+.navLink {
+  color: lightgrey;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+.dwd {
+    min-width: 300px;
+  max-width: 100%;
+  border-style: groove;
+}
+.optionBoxes{
+    display:flex;
+    justify-content: space-between;
+}
+.box {
+    background-color: #facf7f;
+    margin: 10px;
+    flex:1;
+    box-shadow: 0 3px 5px rgba(0,0,0,1);
+    padding:10px 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media(max-width: 768px) {
+    .headerContainer{
+        flex-direction: column;
+        padding-top:20px;
+        text-align: center;
+    }
+    .optionBoxes {
+        display:block;
+        text-align: center;
+    }
 }
