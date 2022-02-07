@@ -9,8 +9,8 @@ const OptionBoxes = () => {
             <div className="box">
               <h2>Free Electro Cleansing</h2>
               <p>
-                My gnomish friend, who refused to be here for this experiment
-                assures me that this is all perfectly safe. Also Free!
+                My gnome companion, who refused to be here for this experiment
+                assures me that this is all perfectly safe. And Free!
               </p>
               <h4>$0</h4>
             </div>

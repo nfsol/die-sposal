@@ -30,17 +30,16 @@ h2 {
   text-align: center;
   border-bottom: 3px solid #8b0000;
 }
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;/* Temp */
+}
 .headerContainer {
     display:flex;
     margin-bottom: 20px;
     align-items: center;
     justify-content: space-between;
-}
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 30px;
-  /* Temp */
 }
 .headerText {
     background-color: #facf7f;
@@ -48,7 +47,7 @@ h2 {
 }
 .navbar {
   font-family: "Bebas Neue", cursive;
-  font-size: 2em;
+  font-size: 1.4rem;
   background: #181818;
   color: lightgray;
   height: 50px;
@@ -63,7 +62,7 @@ h2 {
   height: 100%;
 }
 .logo {
-  font-size: 1.1em;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-left: 10px;
 }
@@ -75,12 +74,12 @@ h2 {
   list-style-type: none;
 }
 .navListItem {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .navLink {
   color: lightgrey;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 1rem;
 }
 .dwd {
     min-width: 300px;
@@ -104,6 +103,10 @@ h2 {
         flex-direction: column;
         padding-top:20px;
         text-align: center;
+      }
+      .headerText{
+      height:400px;
+
     }
     .optionBoxes {
         display:block;
