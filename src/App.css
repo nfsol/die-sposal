@@ -13,7 +13,6 @@ font-family: 'IM Fell DW Pica', serif;
   font-size: 1.2rem;
   line-height: 1.4;
   background: #d6cca9; 
-  color: #323331;
 }
 p{
     margin:10px;
@@ -30,6 +29,11 @@ h2 {
   text-align: center;
   border-bottom: 3px solid #8b0000;
 }
+footer {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -43,7 +47,7 @@ h2 {
 }
 .headerText {
     background-color: #facf7f;
-    height:300px;
+    height:auto;
 }
 .navbar {
   font-family: "Bebas Neue", cursive;
@@ -53,7 +57,7 @@ h2 {
   height: 50px;
 }
 .navLink:hover {
-    color: darkred;
+    color: #8b0000;
 }
 .navContainer {
   display: flex;
@@ -67,7 +71,7 @@ h2 {
   margin-left: 10px;
 }
 .logo:hover {
-    color:darkred;
+    color:#8b0000;
 }
 .navList {
   display: flex;
@@ -79,12 +83,15 @@ h2 {
 .navLink {
   color: lightgrey;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .dwd {
     min-width: 300px;
   max-width: 100%;
   border-style: groove;
+}
+.d20 {
+  max-width: 28px;
 }
 .optionBoxes{
     display:flex;
@@ -96,6 +103,37 @@ h2 {
     flex:1;
     box-shadow: 0 3px 5px rgba(0,0,0,1);
     padding:10px 10px;
+    text-align: center;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.button {
+  border: none;
+  color: gold;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.fillButton {
+  background-color: #facf7f;
+  color: black;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 1.1rem; 
+  font-weight: bold; 
+  border: 3px solid #8b0000;
+}
+.fillButton:hover {
+  background-color: #d6cca9;
+  color: black;
 }
 
 @media(max-width: 768px) {
@@ -104,12 +142,12 @@ h2 {
         padding-top:20px;
         text-align: center;
       }
-      .headerText{
-      height:400px;
-
-    }
+      
     .optionBoxes {
         display:block;
         text-align: center;
+    }
+    .navLink{
+      font-size:1rem;
     }
 }

@@ -11,8 +11,8 @@ const Header = () => {
   <p>
      DM touched your dice? Haven't succeded a saving throw since third edition?
      Can't hit the broad side of a barn with your barn door specialized Fighter?
-     Just unlucky, you keep thinking to yourself... 
-     Think again! You need our unpatentable and obviously legit Dice Cleansing as a Service! 
+     Just unlucky, you keep thinking...<br/> <br/>
+     Think again! You need our unpatentable and obviously legitimate Dice Cleansing as a Service! 
   </p>
   </div>
   
