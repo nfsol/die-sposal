@@ -71,9 +71,10 @@ footer {
   color: #8b0000;
 }
 .logo {
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: bold;
   margin-left: 10px;
+  width:110px;
 }
 .logo:hover {
   color: #8b0000;
