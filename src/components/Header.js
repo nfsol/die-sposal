@@ -5,7 +5,7 @@ const Header = () => {
 <header className="header">
   <div className="headerContainer">
   <DeathLogo />
-      <div className="headerText">
+      <div id='info' className="headerText">
   
   <h1>The worlds first free DCaaS</h1>
   <p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return <footer>
-  Made with something like affection by Tim P. 2022 
+  This silliness is the fault of Tim P. 2022 
 </footer>
 ;
 };
