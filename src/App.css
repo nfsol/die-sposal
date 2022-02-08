@@ -28,6 +28,12 @@ h2 {
   text-align: center;
   border-bottom: 3px solid #8b0000;
 }
+h3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 3px;
+}
 footer {
   padding-top: 20px;
   text-align: center;
@@ -99,9 +105,9 @@ footer {
 .d20 {
   max-width: 20px;
 }
-.ogripe {
+.testImage {
   width:100%;
-  height: 45%;
+  height: 350px;
   
 }
 .optionBoxes {
