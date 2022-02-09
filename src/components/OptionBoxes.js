@@ -3,7 +3,6 @@ import React from "react";
 const OptionBoxes = () => {
   return (
     <>
-      <section>
         <div className="optionBoxes">
           <div className="box">
             <h2>Discreet Dice Disposal</h2>
@@ -47,7 +46,6 @@ const OptionBoxes = () => {
             </div>
           </div>
         </div>
-      </section>
     </>
   );
 };
