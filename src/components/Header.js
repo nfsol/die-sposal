@@ -7,7 +7,7 @@ const Header = () => {
   <DeathLogo />
       <div id='info' className="headerText">
   
-  <h1>The worlds first free DCaaS</h1>
+  <h1>The Worlds First Free DCaaS</h1>
   <p>
      DM touched your dice? Haven't succeded a saving throw since third edition?
      Can't hit the broad side of a barn with your barn door specialized Fighter?
