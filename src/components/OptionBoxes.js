@@ -10,9 +10,8 @@ const OptionBoxes = () => {
             <div className="innerBox">
               <p>
                 Just ship those cursed knuckle bones our way. We'll make sure
-                it's safely quarantined. It won't be able to hurt you any more.
-                I mean... Probably?
-              </p>
+                they're safely quarantined. They probably can't hurt you anymore.
+                </p>
               <button className="button fillButton" disabled>
                 {" "}
                 Coming Soon

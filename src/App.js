@@ -20,9 +20,11 @@ function App() {
     <Navbar />
     <div className='container'>
     <Header />
+    <div className='testContainer'>
     {testCards.map((entry, i) =>{
       return <Testimonial data={entry} key={i}image={images[i]}/>
     })}
+    </div>
     <OptionBoxes />
     <Footer />
     </div>

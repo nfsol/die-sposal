@@ -5,14 +5,14 @@ const Navbar = () => {
   return <nav className='navbar'>
       <div className='navContainer'>
           
-          <div className='logo'><D20 /> Die-Sposal</div>
+          <div className='logo'>Die<D20 />Sposal</div>
         <ul className='navList'>
             <li className='navListItem'>
                 <a className='navLink' href='#info'>Info</a>
             </li>
-            {/* <li className='navListItem'>
-                <a className='navLink' href='#tests'>Testamonials</a>
-            </li> */}
+            <li className='navListItem'>
+                <a className='navLink' href='#reviews'>Reviews</a>
+            </li>
             <li className='navListItem'>
                 <a className='navLink' href='#cleanse'>Cleanse Me</a>
             </li >

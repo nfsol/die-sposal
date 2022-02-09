@@ -145,21 +145,30 @@ footer {
 .cleanseButton{
   font-size: 1.1rem;
   font-weight: bold;
-border: 3px solid darkgreen;
-background-color: #facf7f;
+  color: white;
+border: 3px solid #8b0000;
+background-color: #181818;
 }
 .fillButton {
-  background-color: #facf7f;
+  background-color: #181818;
+  color:darkgray;
   font-size: 1.1rem;
   font-weight: bold;
   border: 3px solid #8b0000;
 }
 .fillButton:hover {
-  background-color: #d6cca9;
+  background-color: gray;
+  color:#181818;
 }
 .cleanseButton:hover {
   background-color: #d6cca9;
-  border-color: goldenrod;
+  border-color: darkgreen;
+  color: #181818;
+}
+.testContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .testimonials {
   display: flex;
@@ -167,7 +176,8 @@ background-color: #facf7f;
   margin-bottom: 20px;
   align-items: center;
   justify-content: space-between;
-  height:auto;
+  height:100%;
+  width: 315px;
   background-color: #181818;
   color: lightgray;
   border-radius: 25px 25px 0 0;
@@ -176,12 +186,12 @@ background-color: #facf7f;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 1);
 }
 .cardContainer{
+  height:100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   background-color: #facf7f;
   color:black;
-
 }
 .cardFooter{
   width: 100%;
@@ -203,6 +213,10 @@ background-color: #facf7f;
   }
   .navLink {
     font-size: 1rem;
+  }
+  .testContainer {
+    display: flex;
+    flex-direction: column;
   }
   .cardContainer {
     flex-direction: column;
