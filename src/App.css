@@ -95,9 +95,10 @@ footer {
 }
 .logo {
   font-family: "IM Fell DW Pica", serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
   margin-left: 10px;
+  width:100px;
 }
 .logo:hover {
   color: #8b0000;
@@ -119,7 +120,7 @@ footer {
   max-width: 80%;
 }
 .d20 {
-  max-width: 18px;
+  max-width: 16px;
 }
 .testImage {
   width: 100%;
