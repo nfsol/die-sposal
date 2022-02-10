@@ -9,7 +9,7 @@ import Dryad from "./components/content/img/Dryad";
 import Minotaur from "./components/content/img/Minotaur";
 import Gobo from "./components/content/img/Gobo";
 function App() {
-  const images = [<Dryad />, <Minotaur />, <Gobo />];
+  const images = [<Dryad />, <Gobo />, <Minotaur /> ];
   return (
     <>
       <Navbar />

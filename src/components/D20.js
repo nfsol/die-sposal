@@ -1,9 +1,9 @@
 import React from "react";
 
-function D20() {
+function D20(props) {
   return (
     <svg
-        className="d20"
+      className={props.className}
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
       viewBox="0 0 272.33 313.39"
