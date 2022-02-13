@@ -10,6 +10,7 @@ import App from './App';
 import Header from './components/Header'
 import Reviews from './components/Reviews'
 import Services from './components/Services'
+import Cleanse from './components/Cleanse'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -22,9 +23,9 @@ ReactDOM.render(
       />
       <Route path="reviews" element={<Reviews />} />
       <Route path="services" element={<Services/>}/>
+        <Route path="cleanse" element={<Cleanse />} />
         </Route>
        
-        {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

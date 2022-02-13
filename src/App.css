@@ -15,6 +15,11 @@ body {
   background: #d6cca9;
   height: 100vh -50px;
 }
+canvas {
+  border: 1px solid black;
+  margin:0;
+  padding:0;
+}
 p {
   margin: 10px;
 }
