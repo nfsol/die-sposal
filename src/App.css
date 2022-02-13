@@ -234,6 +234,9 @@ footer {
   background-color: #facf7f;
   color: black;
 }
+.cardContainer p {
+  border-top:3px solid #8b0000;
+}
 .cardFooter {
   width: 100%;
   margin-right: 20px;
