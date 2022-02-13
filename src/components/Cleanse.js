@@ -3,11 +3,13 @@ import { Stage, Sprite } from "@inlet/react-pixi";
 import Whirlers from "./Whirlers";
 import Skull from "./Skull";
 import circle from "./img/circle.png";
+  const Cleanse = () => {
 
-const Cleanse = () => {
+  // var {height,width} = useWindowSize();
+
   return (
-    <div id='cleanseBox'className="container">
       <Stage
+      className="cleanser"
         width={window.innerWidth}
         height={window.innerHeight}
         options={{ backgroundColor: 0xd6cca9 }}
@@ -21,7 +23,7 @@ const Cleanse = () => {
         <Skull />
         <Whirlers />
       </Stage>
-    </div>
+    
   );
 };
 

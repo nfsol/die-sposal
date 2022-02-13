@@ -15,11 +15,6 @@ body {
   background: #d6cca9;
   height: 100vh -50px;
 }
-canvas {
-  border: 1px solid black;
-  margin:0;
-  padding:0;
-}
 p {
   margin: 10px;
 }
@@ -54,6 +49,9 @@ footer {
   margin: 0 auto;
   padding: 0 30px; /* Temp */
 }
+.cleanser{
+  border: 1px solid black;
+}
 .headerContainer {
   display: flex;
   margin-top: 100px;
@@ -82,6 +80,8 @@ footer {
   height: auto;
   border: 2px solid black;
   padding: 10px;
+  max-width: 60%;
+  margin-right:20px;
 }
 .navContainer {
   display: flex;
@@ -129,7 +129,7 @@ footer {
 }
 .dwd {
   min-width: 300px;
-  max-width: 80%;
+  max-width: 60%;
 }
 .d20 {
   max-width: 16px;
@@ -232,6 +232,9 @@ footer {
     flex-direction: column;
     margin-top: 20px;
     text-align: center;
+  }
+  .headerText{
+    margin-right:0px;
   }
 
   .optionBoxes {

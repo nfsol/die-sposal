@@ -28,7 +28,7 @@ const Whirlers = withPixiApp(
     }
 
     tick = (delta) => {
-      this.i += 0.01 * delta;
+      this.i += 0.02 * delta;
       this.setState((state) => ({
         x: Math.sin(this.i) * (width / 10),
         rotate: (Math.cos(this.i) * width) / 100,

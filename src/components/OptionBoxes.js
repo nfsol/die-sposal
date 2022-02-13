@@ -1,6 +1,8 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 const OptionBoxes = () => {
+
+  let navigate = useNavigate();
   return (
     <>
       <div className="optionBoxes">
@@ -27,7 +29,7 @@ const OptionBoxes = () => {
               And Free!
             </p>
 
-            <button className="button cleanseButton"> Begin</button>
+            <button className="button cleanseButton" onClick={()=>{navigate('/cleanse')}}> Begin</button>
           </div>
         </div>
 
