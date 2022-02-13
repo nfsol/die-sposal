@@ -1,24 +1,36 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 import D20 from "./D20";
 
 const Navbar = () => {
-  return <nav className='navbar'>
-      <div className='navContainer'>
-          
-          <div className='logo'>Die<D20 className='d20'/>Sposal</div>
-        <ul className='navList'>
-            <li className='navListItem'>
-                <a className='navLink' href='#info'>Info</a>
-            </li>
-            <li className='navListItem'>
-                <a className='navLink' href='#reviews'>Reviews</a>
-            </li>
-            <li className='navListItem'>
-                <a className='navLink' href='#cleanse'>Cleanse Me</a>
-            </li >
+  return (
+    <nav className="navbar">
+      <div className="navContainer">
+        <Link className="logo" to="/">
+          Die
+          <D20 className="d20" />
+          Sposal{" "}
+        </Link>
+        <ul className="navList">
+          <li className="navListItem">
+            <Link className="navLink" to="/reviews">
+              Reviews
+            </Link>
+          </li>
+          <li className="navListItem">
+            <Link className="navLink" to="/services">
+              Services
+            </Link>
+          </li>
+          <li className="navListItem">
+            <Link className="navLink" to="/cleanse">
+              Cleanse Me
+            </Link>
+          </li>
         </ul>
       </div>
-  </nav>
+    </nav>
+  );
 };
 
 export default Navbar;

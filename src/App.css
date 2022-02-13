@@ -7,7 +7,6 @@
   padding: 0;
 }
 
-
 body {
   margin-top: 50px;
   font-family: "IM Fell DW Pica", serif;
@@ -55,7 +54,12 @@ footer {
   margin-bottom: 20px;
   align-items: center;
   justify-content: space-between;
-  
+}
+.infoContainer {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .headerLogo {
   display: flex;
@@ -98,7 +102,9 @@ footer {
   font-size: 22px;
   font-weight: bold;
   margin-left: 10px;
-  width:110px;
+  width: 110px;
+  color: lightgray;
+  text-decoration: none;
 }
 .logo:hover {
   color: #8b0000;
@@ -184,14 +190,13 @@ footer {
 .testContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .testimonials {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
   align-items: center;
-  justify-content: space-between;
   height: 100%;
   width: 315px;
   background-color: #181818;
