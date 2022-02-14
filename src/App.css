@@ -148,6 +148,11 @@ footer {
 .d20 {
   max-width: 16px;
 }
+.rabble {
+  min-width: 300px;
+  max-height: 500px;
+  background-color: #facf7f;
+}
 .testImage {
   width: 100%;
   height: 350px;
@@ -243,6 +248,12 @@ footer {
   font-size: 1.3rem;
   display: flex;
   justify-content: flex-end;
+}
+.notFound{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 @media (max-width: 990px) {
   .headerContainer {
